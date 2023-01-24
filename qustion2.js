@@ -1,3 +1,4 @@
+const arr = [12, 24, 48, 55, 72, 78, 88];
 function binarySearch(arr, target) {
   let left = 0;
   let right = arr.length - 1;
@@ -16,3 +17,4 @@ function binarySearch(arr, target) {
 
   return -1;
 }
+console.log(binarySearch(arr, 88));
